@@ -335,25 +335,25 @@
 
 <h1 id="Build-Libra-CLI-Client-and-Connect-to-the-Testnet"><a href="#Build-Libra-CLI-Client-and-Connect-to-the-Testnet" class="headerlink" title="Build Libra CLI Client and Connect to the Testnet"></a>Build Libra CLI Client and Connect to the Testnet</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./scripts/cli/start_cli_testnet.sh</span><br></pre></td></tr></table></figure>
 
-<p>After finish the Testnet showing:<br>![Result after the CLI Client build] (1.png)</p>
+<p>After finish the Testnet showing:<br><img src="/2019/06/25/Getting-Started-with-Facebook-Libra/1.png" alt="Result after the CLI Client build"></p>
 <h1 id="Create-an-account-and-check-the-status"><a href="#Create-an-account-and-check-the-status" class="headerlink" title="Create an account and check the status"></a>Create an account and check the status</h1><p>Create two account </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">account create</span><br><span class="line">account create</span><br></pre></td></tr></table></figure>
 
 <p>Check the details of account</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">account list</span><br></pre></td></tr></table></figure>
 
-<p>![Create and check account] (2.png)</p>
+<p><img src="/2019/06/25/Getting-Started-with-Facebook-Libra/2.png" alt="Create and check account"></p>
 <h2 id="Insert-money-to-the-account"><a href="#Insert-money-to-the-account" class="headerlink" title="Insert money to the account"></a>Insert money to the account</h2><p>We insert 101 coins to first account and, 51 coins to the second account.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">account mint 0 101</span><br><span class="line">account mint 0 51</span><br></pre></td></tr></table></figure>
 
 <p>Check the balance</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">query balance 0</span><br><span class="line">query balance 1</span><br></pre></td></tr></table></figure>
 
-<p>![Insert and check the balance of account] (3.png)</p>
+<p><img src="/2019/06/25/Getting-Started-with-Facebook-Libra/3.png" alt="Insert and check the balance of account"></p>
 <h1 id="Trade-the-coins"><a href="#Trade-the-coins" class="headerlink" title="Trade the coins"></a>Trade the coins</h1><p>So far, we can starting to do the exchange between two accounts.<br>We transfer 33 coins from first account to second account.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">transfer 0 1 33</span><br></pre></td></tr></table></figure>
 
-<p>![trading of the two account] (5.png)</p>
+<p><img src="/2019/06/25/Getting-Started-with-Facebook-Libra/5.png" alt="trading of the two account"></p>
 <h1 id="Refferences-and-online-resources"><a href="#Refferences-and-online-resources" class="headerlink" title="Refferences and online resources"></a>Refferences and online resources</h1><p>~ Libra official website:  <a href="https://libra.org/en-US/" target="_blank" rel="noopener">https://libra.org/en-US/</a><br>~ Libra white paper: <a href="https://libra.org/en-US/white-paper/" target="_blank" rel="noopener">https://libra.org/en-US/white-paper/</a><br>~ Libra technical white paper: <a href="https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf" target="_blank" rel="noopener">https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf</a><br>~ Libra developer documentation: <a href="https://developers.libra.org/" target="_blank" rel="noopener">https://developers.libra.org/</a><br>~ Libra Github: <a href="https://github.com/libra/libra" target="_blank" rel="noopener">https://github.com/libra/libra</a><br>~ Tutorial of environment setup: <a href="https://developers.libra.org/docs/my-first-transaction" target="_blank" rel="noopener">https://developers.libra.org/docs/my-first-transaction</a></p>
 
           
