@@ -79,13 +79,16 @@
 
 
 
+<meta name="description" content="The blog contains sallow experience and reseach about IT">
 <meta property="og:type" content="website">
 <meta property="og:title" content="DO CHEN HAO">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="DO CHEN HAO">
+<meta property="og:description" content="The blog contains sallow experience and reseach about IT">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="DO CHEN HAO">
+<meta name="twitter:description" content="The blog contains sallow experience and reseach about IT">
 
 
 
@@ -157,7 +160,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">Believe in good</p>
       
   </div>
 
@@ -301,13 +304,14 @@
         
           
             <p>Facebook has rolled out its ambitious plans for a new currency and financial infrastructure that could make our transactions easier. Libra is a new type of cryptocurrency that using blockchain technology to allow you to make purchases and send money online with almost zero fees. The idea is to provide fast and reliable transactions with the option to hide your identity while exchanging from your local currency to use Facebook’s Calibra wallet.Now, Libra fullfills the requirements of developer in order to enter the blockchain era. I tried to build a Libra environment to simulate the trading step of the Libra and it was guided by the online resources which will mention in the end of article.</p>
-<h1 id="The-Testing-Environment"><a href="#The-Testing-Environment" class="headerlink" title="The Testing Environment"></a>The Testing Environment</h1><p>Linux Ubuntu 18.04 LTS, 4GB Memory, 100G Storage</p>
-<h1 id="Environment-Setup"><a href="#Environment-Setup" class="headerlink" title="Environment Setup"></a>Environment Setup</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
+<h1 id="Environment-Setup"><a href="#Environment-Setup" class="headerlink" title="Environment Setup"></a>Environment Setup</h1><h2 id="Requirement-of-Environment"><a href="#Requirement-of-Environment" class="headerlink" title="Requirement of Environment"></a>Requirement of Environment</h2><blockquote>
+<p>Linux Ubuntu 18.04 LTS, 4GB Memory, 100G Storage</p>
+</blockquote>
+<h2 id="Update-Linux"><a href="#Update-Linux" class="headerlink" title="Update Linux"></a>Update Linux</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
 
-<h2 id="Download-Libra-and-Related-Packages"><a href="#Download-Libra-and-Related-Packages" class="headerlink" title="Download Libra and Related Packages"></a>Download Libra and Related Packages</h2><p>Download Libra</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/libra/libra.git</span><br></pre></td></tr></table></figure>
+<h1 id="Download-Libra-and-Related-Packages"><a href="#Download-Libra-and-Related-Packages" class="headerlink" title="Download Libra and Related Packages"></a>Download Libra and Related Packages</h1><h2 id="Download-Libra"><a href="#Download-Libra" class="headerlink" title="Download Libra"></a>Download Libra</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/libra/libra.git</span><br></pre></td></tr></table></figure>
 
-<p>Install Golang<br>Use the wget to downlaod package and do extraction.</p>
+<h2 id="Install-Golang"><a href="#Install-Golang" class="headerlink" title="Install Golang"></a>Install Golang</h2><p>Use the wget to downlaod package and do extraction.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget https://studygolang.com/dl/golang/go1.12.5.linux-amd64.tar.gz</span><br><span class="line">tar -xvf go1.12.5.linux-amd64.tar.gz</span><br></pre></td></tr></table></figure>
 
 <p>Configure the environment variable</p>
@@ -316,17 +320,14 @@
 <p>Insert the environment path</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export GOROOT=/usr/go</span><br><span class="line">export GOPATH=/usr/gopath</span><br><span class="line">export PATH=$PATH:$GOROOT/bin:$GOPATH/bin</span><br></pre></td></tr></table></figure>
 
-<p>Install Rust and related software</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl --proto &apos;=https&apos; --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br><span class="line">rustup toolchain install nightly-2019-05-22-x86_64-unknown-linux-gnu</span><br><span class="line">rustup override set nightly-2019-05-22</span><br></pre></td></tr></table></figure>
+<h2 id="Install-Rust-and-related-software"><a href="#Install-Rust-and-related-software" class="headerlink" title="Install Rust and related software"></a>Install Rust and related software</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl --proto &apos;=https&apos; --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br><span class="line">rustup toolchain install nightly-2019-05-22-x86_64-unknown-linux-gnu</span><br><span class="line">rustup override set nightly-2019-05-22</span><br></pre></td></tr></table></figure>
 
 <p>Check the version after the intallation</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rustc --version</span><br><span class="line">rustup --version</span><br></pre></td></tr></table></figure>
 
-<p>Install cmake</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install cmake</span><br></pre></td></tr></table></figure>
+<h2 id="Install-cmake"><a href="#Install-cmake" class="headerlink" title="Install cmake"></a>Install cmake</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install cmake</span><br></pre></td></tr></table></figure>
 
-<p>Configuration of protocol</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-all-3.6.1.tar.gz</span><br><span class="line">tar -xvf protobuf-all-3.6.1.tar.gz</span><br><span class="line">cd protobuf-3.6.1/</span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">make check</span><br><span class="line">sudo make install</span><br><span class="line">protoc --version</span><br><span class="line"># show：libprotoc 3.6.1</span><br></pre></td></tr></table></figure>
+<h2 id="Configuration-of-protocol"><a href="#Configuration-of-protocol" class="headerlink" title="Configuration of protocol"></a>Configuration of protocol</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-all-3.6.1.tar.gz</span><br><span class="line">tar -xvf protobuf-all-3.6.1.tar.gz</span><br><span class="line">cd protobuf-3.6.1/</span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">make check</span><br><span class="line">sudo make install</span><br><span class="line">protoc --version</span><br><span class="line"># show：libprotoc 3.6.1</span><br></pre></td></tr></table></figure>
 
 <h1 id="Installation-of-Libra"><a href="#Installation-of-Libra" class="headerlink" title="Installation of Libra"></a>Installation of Libra</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd libra</span><br><span class="line">./scripts/dev_setup.sh</span><br></pre></td></tr></table></figure>
 
@@ -354,7 +355,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">transfer 0 1 33</span><br></pre></td></tr></table></figure>
 
 <p><img src="/2019/06/25/Getting-Started-with-Facebook-Libra/5.png" alt="trading of the two account"></p>
-<h1 id="Refferences-and-online-resources"><a href="#Refferences-and-online-resources" class="headerlink" title="Refferences and online resources"></a>Refferences and online resources</h1><ul>
+<h1 id="Refferences"><a href="#Refferences" class="headerlink" title="Refferences"></a>Refferences</h1><ul>
 <li>Libra official website:  <a href="https://libra.org/en-US/" target="_blank" rel="noopener">https://libra.org/en-US/</a></li>
 <li>Libra white paper: <a href="https://libra.org/en-US/white-paper/" target="_blank" rel="noopener">https://libra.org/en-US/white-paper/</a></li>
 <li>Libra technical white paper: <a href="https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf" target="_blank" rel="noopener">https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf</a></li>
@@ -567,7 +568,7 @@
               <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Do Chen Hao">
             
               <p class="site-author-name" itemprop="name">Do Chen Hao</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">The blog contains sallow experience and reseach about IT</p>
           </div>
 
           <nav class="site-state motion-element">
