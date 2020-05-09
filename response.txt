@@ -1,0 +1,709 @@
+{
+    "Orders": [
+        {
+            "api_name": "SubmitOrder",
+            "request_id": "38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826",
+            "flow": [
+                {
+                    "flow_id": 0,
+                    "child_api_name": "Adaptor_Starting_Process",
+                    "flow_details": [
+                        {
+                            "message": "{\r\n  \"Source\": \"SFDC\",\r\n  \"CreatedDateTime\": \"20200421105047\",\r\n  \"CustomerInfo\": {\r\n    \"CustName\": \"H3A_CPQ02\",\r\n    \"DocType\": \"BRN\",\r\n    \"DocNo\": \"H3A_CPQ02\",\r\n    \"AcctManagerEmail\": \"onajeremiahrussel.escurel@starhub.com\",\r\n    \"AddressList\": [\r\n      {\r\n        \"AddressAssociation\": \"Mailing Address\",\r\n        \"AddressInfo\": {\r\n          \"AddressId\": \"2061923\",\r\n          \"SamAddressId\": \"AA00946371\"\r\n        }\r\n      },\r\n      {\r\n        \"AddressAssociation\": \"Registered Address\",\r\n        \"AddressInfo\": {\r\n          \"AddressId\": \"2061923\",\r\n          \"SamAddressId\": \"AA00946371\"\r\n        }\r\n      }\r\n    ],\r\n    \"ContactInfoList\": [\r\n      {\r\n        \"ContactId\": \"0030l00000XCkuxAAD\",\r\n        \"Salutation\": \"Mr.\",\r\n        \"FamilyName\": \"TC24\",\r\n        \"Designation\": \"Agent\",\r\n        \"Primary\": \"true\",\r\n        \"ContactRole\": \"Authorized Officer\",\r\n        \"Email\": \"huyentrang.pham.fpt@starhub.com\",\r\n        \"OfficeNo\": \"66666666\",\r\n        \"OfficeLocationType\": \"Local\",\r\n        \"MobileNo\": \"88888888\",\r\n        \"MobileNoLocationType\": \"Local\",\r\n        \"DocNo\": \"S3953669B\",\r\n        \"DocType\": \"NRIC\",\r\n        \"ContactHours\": \"24 Hours\",\r\n        \"ModeOfContact\": \"Email\"\r\n      }\r\n    ],\r\n    \"BillingAccountList\": [\r\n      {\r\n        \"BANo\": \"8.20017679\",\r\n        \"OutstandingAmt\": 0,\r\n        \"OverdueAmt\": 0,\r\n        \"BillDeliveryMethod\": \"Hard Copy\",\r\n        \"BillingAddress\": {\r\n          \"AddressAssociation\": \"Billing Address\",\r\n          \"AddressInfo\": {\r\n            \"AddressId\": \"1654453\",\r\n            \"SamAddressId\": \"AA01603780\",\r\n            \"BlockNo\": \"3\",\r\n            \"Level\": \"20\",\r\n            \"Unit\": \"27\",\r\n            \"Street\": \"TANJONG PAGAR PLAZA\",\r\n            \"PostalCode\": \"081003\"\r\n          }\r\n        },\r\n        \"AccountLevel\": \"10\",\r\n        \"SubsList\": [\r\n          \"PC-02022239\"\r\n        ]\r\n      }\r\n    ],\r\n    \"UCGroupList\": [],\r\n    \"SalesSegment\": \"SME\",\r\n    \"MarketSegment\": \"SMB-Channel Partners\",\r\n    \"CustCategory\": \"SME\",\r\n    \"TotalOutstandingAmt\": 0\r\n  },\r\n  \"OrderInfo\": {\r\n    \"CreatedByEmail\": \"rachel@intrahubs.com\",\r\n    \"CreatedDateTime\": \"20200421105047\",\r\n    \"SourceOrderNumber\": \"OPPTY-200417469841\",\r\n    \"DeliveryInfo\": {\r\n      \"FullDelivery\": true,\r\n      \"PaymentMethods\": [\r\n        \"Credit Card\"\r\n      ],\r\n      \"DeliveryAddress\": {\r\n        \"AddressAssociation\": \"Delivery Address\",\r\n        \"AddressInfo\": {\r\n          \"AddressId\": \"1665236\",\r\n          \"SamAddressId\": \"AA01612446\"\r\n        }\r\n      },\r\n      \"DeliveryContact\": [\r\n        {\r\n          \"ContactId\": \"0036F00001ocASdQAM\",\r\n          \"Salutation\": \"Mr.\",\r\n          \"FamilyName\": \"Yap Chuan Hwee\",\r\n          \"Designation\": \"Manager\",\r\n          \"Primary\": \"true\",\r\n          \"ContactRole\": \"Delivery\",\r\n          \"Email\": \"chuanhwee.yap@schuetz.net\",\r\n          \"OfficeNo\": \"64560115\",\r\n          \"MobileNo\": \"97267679\",\r\n          \"DocNo\": \"S1811498D\",\r\n          \"DocType\": \"NRIC\",\r\n          \"ContactHours\": \"Office Hours\",\r\n          \"ModeOfContact\": \"Both\"\r\n        }\r\n      ],\r\n      \"BillToInfo\": {\r\n        \"BillToAddress\": {\r\n          \"AddressAssociation\": \"BillTo Address\",\r\n          \"AddressInfo\": {\r\n            \"AddressId\": \"2318952\",\r\n            \"SamAddressId\": \"AA01545629\"\r\n          }\r\n        }\r\n      }\r\n    },\r\n    \"ContentDocumentList\": [\r\n      {\r\n        \"ContentId\": \"0680K00000SW6x4QAD\",\r\n        \"FileType\": \"Application Foaaaarm\",\r\n        \"Name\": \"Service Agreement - SCHUTZ SINGAPORE PTE LTD - 21/04/20.pdf\",\r\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6x4QAD/VersionData\"\r\n      },\r\n      {\r\n        \"ContentId\": \"0680K00000SW3DIQA1\",\r\n        \"FileType\": \"Authorized officer identiaaaafication document\",\r\n        \"Name\": \"NRIC - YAP CHUAN HWEE_201601071456\",\r\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3DIQA1/VersionData\"\r\n      },\r\n      {\r\n        \"ContentId\": \"0680K00000SW6xdQAD\",\r\n        \"FileType\": \"Application Formdqwd\",\r\n        \"Name\": \"DEP Registration Form\",\r\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6xdQAD/VersionData\"\r\n      },\r\n      {\r\n        \"ContentId\": \"0680K00000SW3D8QAL\",\r\n        \"FileType\": \"ACRA certificateaaqdw\",\r\n        \"Name\": \"BIZPROFILE - SCHUTZ SG_17042020\",\r\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3D8QAL/VersionData\"\r\n      }\r\n    ],\r\n    \"ContactInfoList\": [],\r\n    \"Subs\": [\r\n      {\r\n        \"SubId\": \"SN-000038484\",\r\n        \"Code\": \"Handset\",\r\n        \"OrderType\": \"New Service\",\r\n        \"ActionCode\": \"Add\",\r\n        \"Id\": \"PC-04422520\",\r\n        \"Name\": \"IPHONE 11 64GB\",\r\n        \"ProductPartNum\": \"EAPP0018701\",\r\n        \"SubAttributes\": [\r\n          {\r\n            \"Name\": \"OTCDiscountPercentage\",\r\n            \"Value\": \"0.0000\"\r\n          },\r\n          {\r\n            \"Name\": \"OTCDiscountDollar\",\r\n            \"Value\": \"0.0000\"\r\n          },\r\n          {\r\n            \"Name\": \"OTCListPrice\",\r\n            \"Value\": \"1149.0000\"\r\n          },\r\n          {\r\n            \"Name\": \"ReservationStatus\",\r\n            \"Value\": \"Waiting List\"\r\n          },\r\n          {\r\n            \"Name\": \"OTC\",\r\n            \"Value\": \"1149.0000\"\r\n          },\r\n          {\r\n            \"Name\": \"OTCDiscountIndicator\",\r\n            \"Value\": \"Discount by Amount\"\r\n          },\r\n          {\r\n            \"Name\": \"ProductPartNum\",\r\n            \"Value\": \"EAPP0018701\"\r\n          },\r\n          {\r\n            \"Name\": \"VoucherCode\"\r\n          },\r\n          {\r\n            \"Name\": \"ReservationCode\",\r\n            \"Value\": \"XEGYYJSCOX\"\r\n          },\r\n          {\r\n            \"Name\": \"Type\",\r\n            \"Value\": \"Apple\"\r\n          },\r\n          {\r\n            \"Name\": \"Category\",\r\n            \"Value\": \"A La Carte\"\r\n          },\r\n          {\r\n            \"Name\": \"ProductName\",\r\n            \"Value\": \"IPHONE 11 64GB\"\r\n          },\r\n          {\r\n            \"Name\": \"PromoItemCode\"\r\n          }\r\n        ],\r\n        \"RFSDate\": \"20200421\",\r\n        \"EmployeeDetailAttributes\": []\r\n      }\r\n    ],\r\n    \"businessUse\": false\r\n  }\r\n}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"entity type cannot be inserted: Subscription\",\"CustGroupId\":0,\"ResultCode\":\"CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "CPQ_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 1,
+                    "child_api_name": "GetUserInfo",
+                    "flow_details": [
+                        {
+                            "message": "{\"Email\":\"huyentrang.pham.fpt@starhub.com\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Email\":\"huyentrang.pham.fpt@starhub.com\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Error\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"1\",\"CustomerList\":[]}",
+                            "status": "Fail",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Error\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"1\",\"CustomerList\":[]}",
+                            "status": "Fail",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 2,
+                    "child_api_name": "QueryCustomer",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"CustomerList\":[{\"OfficeNumber\":\"66666666\",\"RegisteredAddress\":{\"AddressId\":2061923,\"PostalCode\":\"140068\",\"UnitNo\":\"227\",\"StreetName\":\"COMMONWEALTH DRIVE\",\"SamAddressId\":\"AA00946371\",\"AddressStatus\":\"AC\",\"AddressType\":\"LS\",\"Country\":\"SG\",\"BlockNumber\":\"68\",\"FloorNo\":\"01\",\"AddressCategory\":\"H\"},\"CustomerLevelDunning\":\"N\",\"AccountList\":[{\"AcctNbr\":\"8.20017794\",\"AcctId\":25070632},{\"AcctNbr\":\"8.20017679\",\"AcctId\":25070517}],\"MailingAddress\":{\"AddressId\":2061923,\"PostalCode\":\"140068\",\"UnitNo\":\"227\",\"StreetName\":\"COMMONWEALTH DRIVE\",\"SamAddressId\":\"AA00946371\",\"AddressStatus\":\"AC\",\"AddressType\":\"LS\",\"Country\":\"SG\",\"BlockNumber\":\"68\",\"FloorNo\":\"01\",\"AddressCategory\":\"H\"},\"CreateDate\":\"2017-12-30 18:05:08\",\"CustId\":1630244,\"CustName\":\"H3A_CPQ02\",\"DocType\":\"BRN\",\"ContactList\":[{\"LocationOfMobileNumber\":\"N\",\"Name\":\"AO\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Phone\",\"ContactManId\":277285,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"Office hrs (8am to 6pm, Mon to Fri)\",\"ContactManTypeId\":41}],\"Email\":\"ebs_test1@starhub.com\",\"BasicContactManId\":122020,\"Gender\":\"F\",\"Salutation\":\"Dr.\",\"MailAddr\":\"BLK 3 TANJONG PAGAR PLAZA #20-27 SINGAPORE 081003\",\"MobileNumber\":\"88888888\"},{\"LocationOfMobileNumber\":\"N\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"N\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"}],\"Status\":\"A\",\"AccountManager\":{\"StaffId\":11548,\"StaffCode\":\"OJRESCUREL\",\"OrganizationName\":\"EBG Sales(BPM)\",\"StaffName\":\"Ona Jeremiah Russel Escurel\"},\"IndustryName\":\"Construction\",\"CustAttrList\":[{\"Value\":\"BRN_SME\",\"AttrId\":529,\"AttrCode\":\"EBS_CUST_CATG\"},{\"Value\":\"N\",\"AttrId\":613,\"AttrCode\":\"EBS_CUST_VGE_FLAG\"},{\"Value\":\"367\",\"AttrId\":640,\"AttrCode\":\"EBS_CUST_SALES_SEGMENT\"},{\"Value\":\"22\",\"AttrId\":641,\"AttrCode\":\"EBS_CUST_MARKET_SEGMENT\"},{\"Value\":\"N\",\"AttrId\":1661,\"AttrCode\":\"EBS_CUST_HOMEPHONE\"},{\"Value\":\"N\",\"AttrId\":1662,\"AttrCode\":\"EBS_CUST_SMS_MMS\"},{\"Value\":\"N\",\"AttrId\":1663,\"AttrCode\":\"EBS_CUST_DOOR2DOOR\"},{\"Value\":\"N\",\"AttrId\":1664,\"AttrCode\":\"EBS_CUST_DIRET_MAIL\"},{\"Value\":\"7\",\"AttrId\":1801,\"AttrCode\":\"EBS_SUB_DOCUMENT_TYPE\"},{\"Value\":\"N\",\"AttrId\":1910,\"AttrCode\":\"EBS_CUST_LOCATION\"},{\"Value\":\"N\",\"AttrId\":1647,\"AttrCode\":\"EBS_CUST_CSA\"},{\"Value\":\"3\",\"AttrId\":7638,\"AttrCode\":\"EBS_SH_CUST_RATING\"},{\"Value\":\"N\",\"AttrId\":7658,\"AttrCode\":\"EBS_UNDERTAKING_FLAG\"},{\"Value\":\"S\",\"AttrId\":7418,\"AttrCode\":\"EBS_MAINT_NOTI_SLA\"},{\"Value\":\"Y\",\"AttrId\":7420,\"AttrCode\":\"IS_EBS_MAINT_NOTI\"},{\"Value\":\"N\",\"AttrId\":7421,\"AttrCode\":\"IS_EBS_OUTAGE_NOTI\"},{\"Value\":\"Y\",\"AttrId\":8098,\"AttrCode\":\"IS_EBS_NOTIFY_AO\"}],\"DocNbr\":\"H3A_CPQ02\",\"Industry\":\"104\"}],\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\",\"NoOfRecords\":1,\"CustomerInfoList\":[{\"AddressList\":[{\"AddressInfo\":{\"AddressId\":\"2061923\",\"Street\":\"COMMONWEALTH DRIVE\",\"PostalCode\":\"140068\",\"SamAddressId\":\"AA00946371\",\"AddressType\":\"LS\",\"Level\":\"01\",\"BlockNo\":\"68\",\"Country\":\"SG\",\"Unit\":\"227\",\"AddressCategory\":\"H\"},\"AddressAssociation\":\"Registered\"},{\"AddressInfo\":{\"AddressId\":\"2061923\",\"Street\":\"COMMONWEALTH DRIVE\",\"PostalCode\":\"140068\",\"SamAddressId\":\"AA00946371\",\"AddressType\":\"LS\",\"Level\":\"01\",\"BlockNo\":\"68\",\"Country\":\"SG\",\"Unit\":\"227\",\"AddressCategory\":\"H\"},\"AddressAssociation\":\"Mailing\"}],\"MarketSegment\":\"22\",\"UndertakingFlag\":\"N\",\"AttributeList\":[{\"Value\":\"N\",\"Code\":\"EBS_CUST_VGE_FLAG\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_HOMEPHONE\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_SMS_MMS\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_DOOR2DOOR\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_DIRET_MAIL\"},{\"Value\":\"7\",\"Code\":\"EBS_SUB_DOCUMENT_TYPE\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_LOCATION\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_CSA\"},{\"Value\":\"S\",\"Code\":\"EBS_MAINT_NOTI_SLA\"},{\"Value\":\"Y\",\"Code\":\"IS_EBS_MAINT_NOTI\"},{\"Value\":\"N\",\"Code\":\"IS_EBS_OUTAGE_NOTI\"},{\"Value\":\"Y\",\"Code\":\"IS_EBS_NOTIFY_AO\"}],\"DocNo\":\"H3A_CPQ02\",\"CustStatus\":\"A\",\"OfficeNo\":\"66666666\",\"TotalOutstandingAmt\":0,\"CustCategory\":\"BRN_SME\",\"CreateDate\":\"2017-12-30 18:05:08\",\"CustId\":\"1630244\",\"CustName\":\"H3A_CPQ02\",\"DocType\":\"BRN\",\"ContactInfoList\":[{\"MobileNoLocationType\":\"N\",\"EbsContactId\":122020,\"Email\":\"ebs_test1@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Phone\",\"ContactManId\":\"277285\",\"ContactHours\":\"Office hrs (8am to 6pm, Mon to Fri)\",\"ContactManTypeId\":\"41\"}],\"Gender\":\"F\",\"GivenName\":\"AO\",\"Salutation\":\"Dr.\",\"MobileNo\":\"88888888\"},{\"MobileNoLocationType\":\"N\",\"EbsContactId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"N\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"AcctManagerId\":11548,\"AcctManagerName\":\"Ona Jeremiah Russel Escurel\",\"CustRating\":\"3\",\"BillingAccountList\":[{\"OutstandingAmt\":0,\"OverdueAmt\":0,\"BANo\":\"8.20017794\",\"BAId\":25070632,\"BABlackListStatus\":\"Clear\"},{\"OutstandingAmt\":0,\"OverdueAmt\":0,\"BANo\":\"8.20017679\",\"BAId\":25070517,\"BABlackListStatus\":\"Clear\"}],\"SalesSegment\":\"367\",\"DunningFlag\":\"N\",\"CustBlackListStatus\":\"Clear\",\"Industry\":\"104\"}]}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 3,
+                    "child_api_name": "UpdateCustomer",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"CustomerInfo\":{\"DocType\":\"BRN\",\"ContactInfoList\":[{\"ContactRole\":\"Authorized Officer\",\"DocNo\":\"S3953669B\",\"ContactTypeList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"true\",\"ModeOfContact\":\"Email\",\"ContactHours\":\"24 Hours\",\"ContactManTypeId\":\"41\"}],\"OfficeNo\":\"66666666\",\"Salutation\":\"Mr.\",\"ModeOfContact\":\"Email\",\"Primary\":\"true\",\"ContactHours\":\"24 Hours\",\"MobileNo\":\"88888888\",\"DocType\":\"NRIC\",\"MobileNoLocationType\":\"Local\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeLocationType\":\"Local\",\"ContactId\":\"0030l00000XCkuxAAD\",\"FamilyName\":\"TC24\",\"Designation\":\"Agent\"}],\"AddressList\":[{\"AddressInfo\":{\"AddressId\":\"2061923\",\"SamAddressId\":\"AA00946371\"},\"AddressAssociation\":\"Mailing Address\"},{\"AddressInfo\":{\"AddressId\":\"2061923\",\"SamAddressId\":\"AA00946371\"},\"AddressAssociation\":\"Registered Address\"}],\"AcctManagerEmail\":\"onajeremiahrussel.escurel@starhub.com\",\"MarketSegment\":\"SMB-Channel Partners\",\"DocNo\":\"H3A_CPQ02\",\"UCGroupList\":[],\"TotalOutstandingAmt\":0,\"CustCategory\":\"SME\",\"BillingAccountList\":[{\"OutstandingAmt\":0,\"OverdueAmt\":0,\"BANo\":\"8.20017679\",\"BillingAddress\":{\"AddressInfo\":{\"AddressId\":\"1654453\",\"Street\":\"TANJONG PAGAR PLAZA\",\"PostalCode\":\"081003\",\"SamAddressId\":\"AA01603780\",\"Level\":\"20\",\"BlockNo\":\"3\",\"Unit\":\"27\"},\"AddressAssociation\":\"Billing Address\"},\"BillDeliveryMethod\":\"Hard Copy\",\"SubsList\":[\"PC-02022239\"],\"AccountLevel\":\"10\"}],\"SalesSegment\":\"SME\",\"CustName\":\"H3A_CPQ02\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Customer\":{\"DocType\":\"BRN\",\"ContactList\":[{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"}],\"AccountManager\":{\"StaffEmail\":\"onajeremiahrussel.escurel@starhub.com\"},\"RegisteredAddress\":{\"AddressId\":2061923,\"SamAddressId\":\"AA00946371\"},\"CustAttrList\":[{\"Value\":\"367\",\"AttrCode\":\"EBS_CUST_SALES_SEGMENT\"},{\"Value\":\"22\",\"AttrCode\":\"EBS_CUST_MARKET_SEGMENT\"},{\"Value\":\"BRN_SME\",\"AttrCode\":\"EBS_CUST_CATG\"}],\"AccountList\":[{\"DeliveryInfo\":{\"Address\":{\"AddressId\":1654453,\"PostalCode\":\"081003\",\"UnitNo\":\"27\",\"StreetName\":\"TANJONG PAGAR PLAZA\",\"SamAddressId\":\"AA01603780\",\"BlockNumber\":\"3\",\"FloorNo\":\"20\"},\"DeliveryMethod\":\"A\"},\"PaymentResponsible\":\"Yes\",\"AcctAttrList\":[{\"Value\":\"10\",\"AttrCode\":\"EBS_ACCT_LEVEL\"}],\"AcctNbr\":\"8.20017679\"}],\"DocNbr\":\"H3A_CPQ02\",\"MailingAddress\":{\"AddressId\":2061923,\"SamAddressId\":\"AA00946371\"},\"CustName\":\"H3A_CPQ02\"},\"Source\":\"SFDC\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"Customer\":{\"DocType\":\"BRN\",\"DocNbr\":\"H3A_CPQ02\",\"CustId\":1630244,\"CustName\":\"H3A_CPQ02\"},\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"CustomerInfo\":{\"DocType\":\"BRN\",\"AddressList\":[],\"DocNo\":\"H3A_CPQ02\",\"TotalOutstandingAmt\":0,\"CustId\":\"1630244\",\"CustBlackListStatus\":\"Clear\",\"CustName\":\"H3A_CPQ02\"},\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 4,
+                    "child_api_name": "QueryContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ContactInfoList\":[{\"MobileNoLocationType\":\"Local\",\"EbsContactId\":125809,\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"Local\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfoList\":[{\"OfficeNumber\":\"66666666\",\"Salutation\":\"Mr.\",\"LocationOfOfficeNumber\":\"Local\",\"Name\":\"TC24\",\"LocationOfMobileNumber\":\"Local\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"BasicContactManId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"DocNbr\":\"H3A_CPQ02\",\"DocNumber\":\"S3953669B\",\"Designation\":\"Agent\",\"MobileNumber\":\"88888888\"}],\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 5,
+                    "child_api_name": "QueryContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Name\":\"TC24\",\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeNo\":\"66666666\",\"MobileNo\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Name\":\"TC24\",\"DocType\":\"BRN\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"DocNbr\":\"H3A_CPQ02\",\"MobileNumber\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ContactInfoList\":[{\"MobileNoLocationType\":\"Local\",\"EbsContactId\":125809,\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"Local\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfoList\":[{\"OfficeNumber\":\"66666666\",\"Salutation\":\"Mr.\",\"LocationOfOfficeNumber\":\"Local\",\"Name\":\"TC24\",\"LocationOfMobileNumber\":\"Local\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"BasicContactManId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"DocNbr\":\"H3A_CPQ02\",\"DocNumber\":\"S3953669B\",\"Designation\":\"Agent\",\"MobileNumber\":\"88888888\"}],\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 6,
+                    "child_api_name": "UpdateContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\",\"ContactInfo\":{\"ContactRole\":\"Authorized Officer\",\"DocNo\":\"S3953669B\",\"OfficeNo\":\"66666666\",\"Salutation\":\"Mr.\",\"ModeOfContact\":\"Email\",\"Primary\":\"true\",\"ContactHours\":\"24 Hours\",\"MobileNo\":\"88888888\",\"DocType\":\"NRIC\",\"EbsContactId\":125809,\"MobileNoLocationType\":\"Local\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeLocationType\":\"Local\",\"ContactId\":\"0030l00000XCkuxAAD\",\"FamilyName\":\"TC24\",\"Designation\":\"Agent\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 7,
+                    "child_api_name": "QueryContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"Name\":\"TC24\",\"DocType\":\"BRN\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"DocNbr\":\"H3A_CPQ02\",\"MobileNumber\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Name\":\"TC24\",\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeNo\":\"66666666\",\"MobileNo\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"ContactInfoList\":[{\"MobileNoLocationType\":\"Local\",\"EbsContactId\":125809,\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"Local\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfoList\":[{\"OfficeNumber\":\"66666666\",\"Salutation\":\"Mr.\",\"LocationOfOfficeNumber\":\"Local\",\"Name\":\"TC24\",\"LocationOfMobileNumber\":\"Local\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"BasicContactManId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"DocNbr\":\"H3A_CPQ02\",\"DocNumber\":\"S3953669B\",\"Designation\":\"Agent\",\"MobileNumber\":\"88888888\"}],\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 8,
+                    "child_api_name": "UpdateContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\",\"ContactInfo\":{\"ContactRole\":\"Authorized Officer\",\"DocNo\":\"S3953669B\",\"ContactTypeList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"true\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 Hours\",\"ContactManTypeId\":\"41\"}],\"OfficeNo\":\"66666666\",\"Salutation\":\"Mr.\",\"ModeOfContact\":\"Email\",\"Primary\":\"true\",\"ContactHours\":\"24 Hours\",\"MobileNo\":\"88888888\",\"DocType\":\"NRIC\",\"EbsContactId\":125809,\"MobileNoLocationType\":\"Local\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeLocationType\":\"Local\",\"ContactId\":\"0030l00000XCkuxAAD\",\"FamilyName\":\"TC24\",\"Designation\":\"Agent\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 9,
+                    "child_api_name": "QueryQuotation",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"QuotationList\":[{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"Status\":\"C\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}],\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"QuotationList\":[{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"Status\":\"C\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}],\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 10,
+                    "child_api_name": "ModifyQuotation",
+                    "flow_details": [
+                        {
+                            "message": "{\"Quotation\":{\"DocType\":\"BRN\",\"Source\":\"SFDC\",\"Status\":\"C\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"Quotation\":{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"Status\":\"C\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 11,
+                    "child_api_name": "CreateQuotation",
+                    "flow_details": [
+                        {
+                            "message": "{\"Quotation\":{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[{\"ParamCode\":\"HANDSET\",\"RowList\":[{\"RowCode\":\"EAPP0018701\",\"ColumnGroupList\":[{\"ColumnList\":[{\"ColumnValue\":\"D\",\"ColumnCode\":\"DISCOUNT_TYPE\"},{\"ColumnValue\":\"0.0\",\"ColumnCode\":\"VALUE\"}],\"ColumnGroupCode\":\"OTC\"}]}]}],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Quotation\":{\"DocType\":\"BRN\",\"Source\":\"SFDC\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[{\"ParamCode\":\"HANDSET\",\"RowList\":[{\"RowCode\":\"EAPP0018701\",\"ColumnGroupList\":[{\"ColumnList\":[{\"ColumnValue\":\"D\",\"ColumnCode\":\"DISCOUNT_TYPE\"},{\"ColumnValue\":\"0.0\",\"ColumnCode\":\"VALUE\"}],\"ColumnGroupCode\":\"OTC\"}]}]}],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 12,
+                    "child_api_name": "QueryQuotation",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"QuotationList\":[{\"DocType\":\"BRN\",\"Status\":\"F\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94125\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"},{\"DocType\":\"BRN\",\"Status\":\"C\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}],\"NoOfRecords\":2}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"QuotationList\":[{\"DocType\":\"BRN\",\"Status\":\"F\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94125\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"},{\"DocType\":\"BRN\",\"Status\":\"C\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}],\"NoOfRecords\":2}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 13,
+                    "child_api_name": "CreateOrder",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"SourceOrderNbr\":\"OPPTY-200417469841\",\"DocType\":\"BRN\",\"DocNbr\":\"H3A_CPQ02\",\"AcceptDate\":\"20200429\",\"CustOrderAttrList\":[{\"AttrCode\":\"IDEAL_E_FORM\",\"OperationType\":\"A\",\"Value\":\"N\"}],\"DeliveryInfoOrder\":{\"DoType\":\"A\",\"DeliveryTo\":\"Yap Chuan Hwee\",\"MobileNo\":\"97267679\",\"Nric\":\"S1811498D\",\"Email\":\"chuanhwee.yap@schuetz.net\",\"PaymentType\":\"B\",\"PaymentMethod\":\"3\",\"DeliveryAddressId\":1665236,\"BillAddressId\":2318952,\"DeliveryOption\":\"PTC\"},\"OrderItemList\":[{\"ActionCode\":\"ManualDeliveryOrder\",\"SourceOrderItemNbr\":\"SN-000038484\",\"IndependProdOrderList\":[{\"DeviceInfoOrderList\":[{\"DeviceType\":\"RRP_HANDSET\",\"DevicePartNum\":\"EAPP0018701\",\"Qty\":1,\"WaitingListCode\":\"XEGYYJSCOX\"}]}],\"QcType\":\"Q\",\"SourceQcItemId\":\"SN-000038484\",\"Asap\":\"N\",\"RfsDate\":\"20200421\"}],\"CustOrderAttachmentList\":[{\"ContentId\":\"0680K00000SW6x4QAD\",\"AttachName\":\"Service Agreement - SCHUTZ SINGAPORE PTE LTD - 21/04/20.pdf\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6x4QAD/VersionData\",\"AttachType\":\"Application Foaaaarm\"},{\"ContentId\":\"0680K00000SW3DIQA1\",\"AttachName\":\"NRIC - YAP CHUAN HWEE_201601071456\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3DIQA1/VersionData\",\"AttachType\":\"Authorized officer identiaaaafication document\"},{\"ContentId\":\"0680K00000SW6xdQAD\",\"AttachName\":\"DEP Registration Form\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6xdQAD/VersionData\",\"AttachType\":\"Application Formdqwd\"},{\"ContentId\":\"0680K00000SW3D8QAL\",\"AttachName\":\"BIZPROFILE - SCHUTZ SG_17042020\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3D8QAL/VersionData\",\"AttachType\":\"ACRA certificateaaqdw\"}],\"AuthorizedPersonList\":[{\"AuthorizedPerson\":\"TC24\",\"AuthorizedDocument\":\"S3953669B\",\"AuthorizedEmail\":\"huyentrang.pham.fpt@starhub.com\",\"AuthorizedOfficeNo\":\"66666666\",\"AuthorizedMobileNo\":\"88888888\",\"AuthorizedDesignation\":\"Agent\"}],\"CustOrderEmailList\":[{\"EmailAddr\":\"huyentrang.pham.fpt@starhub.com\"}],\"CreateBy\":{\"StaffEmail\":\"rachel@intrahubs.com\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Source\":\"SFDC\",\"DeliveryInfoOrder\":{\"PaymentType\":\"B\",\"Email\":\"chuanhwee.yap@schuetz.net\",\"BillAddressId\":2318952,\"DeliveryAddressId\":1665236,\"DeliveryOption\":\"PTC\",\"PaymentMethod\":\"3\",\"Nric\":\"S1811498D\",\"DeliveryTo\":\"Yap Chuan Hwee\",\"DoType\":\"A\",\"MobileNo\":\"97267679\"},\"CustOrderAttrList\":[{\"Value\":\"N\",\"AttrCode\":\"IDEAL_E_FORM\",\"OperationType\":\"A\"}],\"CustOrderEmailList\":[{\"EmailAddr\":\"huyentrang.pham.fpt@starhub.com\"}],\"OrderItemList\":[{\"SourceQcItemId\":\"SN-000038484\",\"RfsDate\":\"20200421\",\"IndependProdOrderList\":[{\"DeviceInfoOrderList\":[{\"Qty\":1,\"DevicePartNum\":\"EAPP0018701\",\"WaitingListCode\":\"XEGYYJSCOX\",\"DeviceType\":\"RRP_HANDSET\"}]}],\"ActionCode\":\"ManualDeliveryOrder\",\"Asap\":\"N\",\"SourceOrderItemNbr\":\"SN-000038484\",\"QcType\":\"Q\"}],\"AcceptDate\":\"20200429\",\"SourceOrderNbr\":\"OPPTY-200417469841\",\"CreateBy\":{\"StaffEmail\":\"rachel@intrahubs.com\"},\"AuthorizedPersonList\":[{\"AuthorizedEmail\":\"huyentrang.pham.fpt@starhub.com\",\"AuthorizedPerson\":\"TC24\",\"AuthorizedDocument\":\"S3953669B\",\"AuthorizedOfficeNo\":\"66666666\",\"AuthorizedMobileNo\":\"88888888\",\"AuthorizedDesignation\":\"Agent\"}],\"HoldOrderFlag\":\"N\",\"DocNbr\":\"H3A_CPQ02\",\"CustOrderAttachmentList\":[{\"AttachName\":\"Service Agreement - SCHUTZ SINGAPORE PTE LTD - 21/04/20.pdf\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6x4QAD/VersionData\",\"ContentId\":\"0680K00000SW6x4QAD\",\"AttachType\":\"Application Foaaaarm\"},{\"AttachName\":\"NRIC - YAP CHUAN HWEE_201601071456\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3DIQA1/VersionData\",\"ContentId\":\"0680K00000SW3DIQA1\",\"AttachType\":\"Authorized officer identiaaaafication document\"},{\"AttachName\":\"DEP Registration Form\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6xdQAD/VersionData\",\"ContentId\":\"0680K00000SW6xdQAD\",\"AttachType\":\"Application Formdqwd\"},{\"AttachName\":\"BIZPROFILE - SCHUTZ SG_17042020\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3D8QAL/VersionData\",\"ContentId\":\"0680K00000SW3D8QAL\",\"AttachType\":\"ACRA certificateaaqdw\"}]}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"custOrderAttachmentList(1):attachType is out of range.\",\"RequestId\":\"38775479-f55a-42f8-83de-b32f21e9bbe5-1588139878826\",\"ResultCode\":\"1019\"}",
+                            "status": "Fail",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"custOrderAttachmentList(1):attachType is out of range.\",\"CustGroupId\":0,\"ResultCode\":\"1019\",\"NoOfRecords\":0}",
+                            "status": "Fail",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 14,
+                    "child_api_name": "OrderUpdateStatus",
+                    "flow_details": [
+                        {
+                            "message": "{\"id\":\"SN-000038484\",\"csord__Status__c\":\"Exception\"}",
+                            "status": "Success",
+                            "action": "CPQ_REQUEST"
+                        },
+                        {
+                            "message": "{\"message\":\"entity type cannot be inserted: Subscription\",\"errorCode\":\"CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY\"}",
+                            "status": "Success",
+                            "action": "CPQ_RESPONSE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "api_name": "SubmitOrder",
+            "request_id": "ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816",
+            "flow": [
+                {
+                    "flow_id": 0,
+                    "child_api_name": "Adaptor_Starting_Process",
+                    "flow_details": [
+                        {
+                            "message": "{\n  \"Source\": \"SFDC\",\n  \"CreatedDateTime\": \"20200421105047\",\n  \"CustomerInfo\": {\n    \"CustName\": \"H3A_CPQ02\",\n    \"DocType\": \"BRN\",\n    \"DocNo\": \"H3A_CPQ02\",\n    \"AcctManagerEmail\": \"onajeremiahrussel.escurel@starhub.com\",\n    \"AddressList\": [\n      {\n        \"AddressAssociation\": \"Mailing Address\",\n        \"AddressInfo\": {\n          \"AddressId\": \"2061923\",\n          \"SamAddressId\": \"AA00946371\"\n        }\n      },\n      {\n        \"AddressAssociation\": \"Registered Address\",\n        \"AddressInfo\": {\n          \"AddressId\": \"2061923\",\n          \"SamAddressId\": \"AA00946371\"\n        }\n      }\n    ],\n    \"ContactInfoList\": [\n      {\n        \"ContactId\": \"0030l00000XCkuxAAD\",\n        \"Salutation\": \"Mr.\",\n        \"FamilyName\": \"TC24\",\n        \"Designation\": \"Agent\",\n        \"Primary\": \"true\",\n        \"ContactRole\": \"Authorized Officer\",\n        \"Email\": \"huyentrang.pham.fpt@starhub.com\",\n        \"OfficeNo\": \"66666666\",\n        \"OfficeLocationType\": \"Local\",\n        \"MobileNo\": \"88888888\",\n        \"MobileNoLocationType\": \"Local\",\n        \"DocNo\": \"S3953669B\",\n        \"DocType\": \"NRIC\",\n        \"ContactHours\": \"24 Hours\",\n        \"ModeOfContact\": \"Email\"\n      }\n    ],\n    \"BillingAccountList\": [\n      {\n        \"BANo\": \"8.20017679\",\n        \"OutstandingAmt\": 0,\n        \"OverdueAmt\": 0,\n        \"BillDeliveryMethod\": \"Hard Copy\",\n        \"BillingAddress\": {\n          \"AddressAssociation\": \"Billing Address\",\n          \"AddressInfo\": {\n            \"AddressId\": \"1654453\",\n            \"SamAddressId\": \"AA01603780\",\n            \"BlockNo\": \"3\",\n            \"Level\": \"20\",\n            \"Unit\": \"27\",\n            \"Street\": \"TANJONG PAGAR PLAZA\",\n            \"PostalCode\": \"081003\"\n          }\n        },\n        \"AccountLevel\": \"10\",\n        \"SubsList\": [\n          \"PC-02022239\"\n        ]\n      }\n    ],\n    \"UCGroupList\": [],\n    \"SalesSegment\": \"SME\",\n    \"MarketSegment\": \"SMB-Channel Partners\",\n    \"CustCategory\": \"SME\",\n    \"TotalOutstandingAmt\": 0\n  },\n  \"OrderInfo\": {\n    \"CreatedByEmail\": \"rachel@intrahubs.com\",\n    \"CreatedDateTime\": \"20200421105047\",\n    \"SourceOrderNumber\": \"OPPTY-200417469841\",\n    \"DeliveryInfo\": {\n      \"FullDelivery\": true,\n      \"PaymentMethods\": [\n        \"Credit Card\"\n      ],\n      \"DeliveryAddress\": {\n        \"AddressAssociation\": \"Delivery Address\",\n        \"AddressInfo\": {\n          \"AddressId\": \"1665236\",\n          \"SamAddressId\": \"AA01612446\"\n        }\n      },\n      \"DeliveryContact\": [\n        {\n          \"ContactId\": \"0036F00001ocASdQAM\",\n          \"Salutation\": \"Mr.\",\n          \"FamilyName\": \"Yap Chuan Hwee\",\n          \"Designation\": \"Manager\",\n          \"Primary\": \"true\",\n          \"ContactRole\": \"Delivery\",\n          \"Email\": \"chuanhwee.yap@schuetz.net\",\n          \"OfficeNo\": \"64560115\",\n          \"MobileNo\": \"97267679\",\n          \"DocNo\": \"S1811498D\",\n          \"DocType\": \"NRIC\",\n          \"ContactHours\": \"Office Hours\",\n          \"ModeOfContact\": \"Both\"\n        }\n      ],\n      \"BillToInfo\": {\n        \"BillToAddress\": {\n          \"AddressAssociation\": \"BillTo Address\",\n          \"AddressInfo\": {\n            \"AddressId\": \"2318952\",\n            \"SamAddressId\": \"AA01545629\"\n          }\n        }\n      }\n    },\n    \"ContentDocumentList\": [\n      {\n        \"ContentId\": \"0680K00000SW6x4QAD\",\n        \"FileType\": \"Application Form\",\n        \"Name\": \"Service Agreement - SCHUTZ SINGAPORE PTE LTD - 21/04/20.pdf\",\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6x4QAD/VersionData\"\n      },\n      {\n        \"ContentId\": \"0680K00000SW3DIQA1\",\n        \"FileType\": \"Authorized officer identification document\",\n        \"Name\": \"NRIC - YAP CHUAN HWEE_201601071456\",\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3DIQA1/VersionData\"\n      },\n      {\n        \"ContentId\": \"0680K00000SW6xdQAD\",\n        \"FileType\": \"Application Formdqwd\",\n        \"Name\": \"DEP Registration Form\",\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6xdQAD/VersionData\"\n      },\n      {\n        \"ContentId\": \"0680K00000SW3D8QAL\",\n        \"FileType\": \"ACRA certificateqdw\",\n        \"Name\": \"BIZPROFILE - SCHUTZ SG_17042020\",\n        \"URL\": \"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3D8QAL/VersionData\"\n      }\n    ],\n    \"ContactInfoList\": [],\n    \"Subs\": [\n      {\n        \"SubId\": \"SN-000038484\",\n        \"Code\": \"Handset\",\n        \"OrderType\": \"New Service\",\n        \"ActionCode\": \"Add\",\n        \"Id\": \"PC-04422520\",\n        \"Name\": \"IPHONE 11 64GB\",\n        \"ProductPartNum\": \"EAPP0018701\",\n        \"SubAttributes\": [\n          {\n            \"Name\": \"OTCDiscountPercentage\",\n            \"Value\": \"0.0000\"\n          },\n          {\n            \"Name\": \"OTCDiscountDollar\",\n            \"Value\": \"0.0000\"\n          },\n          {\n            \"Name\": \"OTCListPrice\",\n            \"Value\": \"1149.0000\"\n          },\n          {\n            \"Name\": \"ReservationStatus\",\n            \"Value\": \"Waiting List\"\n          },\n          {\n            \"Name\": \"OTC\",\n            \"Value\": \"1149.0000\"\n          },\n          {\n            \"Name\": \"OTCDiscountIndicator\",\n            \"Value\": \"Discount by Amount\"\n          },\n          {\n            \"Name\": \"ProductPartNum\",\n            \"Value\": \"EAPP0018701\"\n          },\n          {\n            \"Name\": \"VoucherCode\"\n          },\n          {\n            \"Name\": \"ReservationCode\",\n            \"Value\": \"XEGYYJSCOX\"\n          },\n          {\n            \"Name\": \"Type\",\n            \"Value\": \"Apple\"\n          },\n          {\n            \"Name\": \"Category\",\n            \"Value\": \"A La Carte\"\n          },\n          {\n            \"Name\": \"ProductName\",\n            \"Value\": \"IPHONE 11 64GB\"\n          },\n          {\n            \"Name\": \"PromoItemCode\"\n          }\n        ],\n        \"RFSDate\": \"20200421\",\n        \"EmployeeDetailAttributes\": []\n      }\n    ],\n    \"businessUse\": false\n  }\n}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 1,
+                    "child_api_name": "GetUserInfo",
+                    "flow_details": [
+                        {
+                            "message": "{\"Email\":\"huyentrang.pham.fpt@starhub.com\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Email\":\"huyentrang.pham.fpt@starhub.com\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\",\"CustomerList\":[{\"Name\":\"SR18J4657C_0\",\"Category\":\"BRN_SME\",\"DocumentNumber\":\"S1874111C\",\"UserInfo\":{\"AttachedServiceList\":[],\"StatusLastUpdateDate\":\"15:07:54 18-12-2018\",\"UserStatus\":\"E\",\"Role\":\"SUPER_CUST_ADMIN\",\"UserName\":\"trang\",\"UserId\":103205,\"UserEmail\":\"huyentrang.pham.fpt@starhub.com\",\"AttachedServiceCount\":0}}]}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\",\"CustomerList\":[{\"Name\":\"SR18J4657C_0\",\"Category\":\"BRN_SME\",\"UserInfo\":{\"ManagerEmailId\":0,\"ReasonId\":0,\"RoleCode\":\"SUPER_CUST_ADMIN\",\"AttachedServiceList\":[],\"StatusLastUpdateDate\":\"15:07:54 18-12-2018\",\"UserStatus\":\"E\",\"Role\":\"SUPER_CUST_ADMIN\",\"UserName\":\"trang\",\"AttachedServiceCount\":0,\"UserEmail\":\"huyentrang.pham.fpt@starhub.com\",\"UserId\":103205},\"DocumentNumber\":\"S1874111C\"}]}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 2,
+                    "child_api_name": "QueryCustomer",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\",\"NoOfRecords\":1,\"CustomerInfoList\":[{\"AddressList\":[{\"AddressInfo\":{\"AddressId\":\"2061923\",\"Street\":\"COMMONWEALTH DRIVE\",\"PostalCode\":\"140068\",\"SamAddressId\":\"AA00946371\",\"AddressType\":\"LS\",\"Level\":\"01\",\"BlockNo\":\"68\",\"Country\":\"SG\",\"Unit\":\"227\",\"AddressCategory\":\"H\"},\"AddressAssociation\":\"Registered\"},{\"AddressInfo\":{\"AddressId\":\"2061923\",\"Street\":\"COMMONWEALTH DRIVE\",\"PostalCode\":\"140068\",\"SamAddressId\":\"AA00946371\",\"AddressType\":\"LS\",\"Level\":\"01\",\"BlockNo\":\"68\",\"Country\":\"SG\",\"Unit\":\"227\",\"AddressCategory\":\"H\"},\"AddressAssociation\":\"Mailing\"}],\"MarketSegment\":\"22\",\"UndertakingFlag\":\"N\",\"AttributeList\":[{\"Value\":\"N\",\"Code\":\"EBS_CUST_VGE_FLAG\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_HOMEPHONE\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_SMS_MMS\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_DOOR2DOOR\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_DIRET_MAIL\"},{\"Value\":\"7\",\"Code\":\"EBS_SUB_DOCUMENT_TYPE\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_LOCATION\"},{\"Value\":\"N\",\"Code\":\"EBS_CUST_CSA\"},{\"Value\":\"S\",\"Code\":\"EBS_MAINT_NOTI_SLA\"},{\"Value\":\"Y\",\"Code\":\"IS_EBS_MAINT_NOTI\"},{\"Value\":\"N\",\"Code\":\"IS_EBS_OUTAGE_NOTI\"},{\"Value\":\"Y\",\"Code\":\"IS_EBS_NOTIFY_AO\"}],\"DocNo\":\"H3A_CPQ02\",\"CustStatus\":\"A\",\"OfficeNo\":\"66666666\",\"TotalOutstandingAmt\":0,\"CustCategory\":\"BRN_SME\",\"CreateDate\":\"2017-12-30 18:05:08\",\"CustId\":\"1630244\",\"CustName\":\"H3A_CPQ02\",\"DocType\":\"BRN\",\"ContactInfoList\":[{\"MobileNoLocationType\":\"N\",\"EbsContactId\":122020,\"Email\":\"ebs_test1@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Phone\",\"ContactManId\":\"277285\",\"ContactHours\":\"Office hrs (8am to 6pm, Mon to Fri)\",\"ContactManTypeId\":\"41\"}],\"Gender\":\"F\",\"GivenName\":\"AO\",\"Salutation\":\"Dr.\",\"MobileNo\":\"88888888\"},{\"MobileNoLocationType\":\"N\",\"EbsContactId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"N\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"AcctManagerId\":11548,\"AcctManagerName\":\"Ona Jeremiah Russel Escurel\",\"CustRating\":\"3\",\"BillingAccountList\":[{\"OutstandingAmt\":0,\"OverdueAmt\":0,\"BANo\":\"8.20017794\",\"BAId\":25070632,\"BABlackListStatus\":\"Clear\"},{\"OutstandingAmt\":0,\"OverdueAmt\":0,\"BANo\":\"8.20017679\",\"BAId\":25070517,\"BABlackListStatus\":\"Clear\"}],\"SalesSegment\":\"367\",\"DunningFlag\":\"N\",\"CustBlackListStatus\":\"Clear\",\"Industry\":\"104\"}]}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"CustomerList\":[{\"OfficeNumber\":\"66666666\",\"RegisteredAddress\":{\"AddressId\":2061923,\"PostalCode\":\"140068\",\"UnitNo\":\"227\",\"StreetName\":\"COMMONWEALTH DRIVE\",\"SamAddressId\":\"AA00946371\",\"AddressStatus\":\"AC\",\"AddressType\":\"LS\",\"Country\":\"SG\",\"BlockNumber\":\"68\",\"FloorNo\":\"01\",\"AddressCategory\":\"H\"},\"CustomerLevelDunning\":\"N\",\"AccountList\":[{\"AcctNbr\":\"8.20017794\",\"AcctId\":25070632},{\"AcctNbr\":\"8.20017679\",\"AcctId\":25070517}],\"MailingAddress\":{\"AddressId\":2061923,\"PostalCode\":\"140068\",\"UnitNo\":\"227\",\"StreetName\":\"COMMONWEALTH DRIVE\",\"SamAddressId\":\"AA00946371\",\"AddressStatus\":\"AC\",\"AddressType\":\"LS\",\"Country\":\"SG\",\"BlockNumber\":\"68\",\"FloorNo\":\"01\",\"AddressCategory\":\"H\"},\"CreateDate\":\"2017-12-30 18:05:08\",\"CustId\":1630244,\"CustName\":\"H3A_CPQ02\",\"DocType\":\"BRN\",\"ContactList\":[{\"LocationOfMobileNumber\":\"N\",\"Name\":\"AO\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Phone\",\"ContactManId\":277285,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"Office hrs (8am to 6pm, Mon to Fri)\",\"ContactManTypeId\":41}],\"Email\":\"ebs_test1@starhub.com\",\"BasicContactManId\":122020,\"Gender\":\"F\",\"Salutation\":\"Dr.\",\"MailAddr\":\"BLK 3 TANJONG PAGAR PLAZA #20-27 SINGAPORE 081003\",\"MobileNumber\":\"88888888\"},{\"LocationOfMobileNumber\":\"N\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"N\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"}],\"Status\":\"A\",\"AccountManager\":{\"StaffId\":11548,\"StaffCode\":\"OJRESCUREL\",\"OrganizationName\":\"EBG Sales(BPM)\",\"StaffName\":\"Ona Jeremiah Russel Escurel\"},\"IndustryName\":\"Construction\",\"CustAttrList\":[{\"Value\":\"BRN_SME\",\"AttrId\":529,\"AttrCode\":\"EBS_CUST_CATG\"},{\"Value\":\"N\",\"AttrId\":613,\"AttrCode\":\"EBS_CUST_VGE_FLAG\"},{\"Value\":\"367\",\"AttrId\":640,\"AttrCode\":\"EBS_CUST_SALES_SEGMENT\"},{\"Value\":\"22\",\"AttrId\":641,\"AttrCode\":\"EBS_CUST_MARKET_SEGMENT\"},{\"Value\":\"N\",\"AttrId\":1661,\"AttrCode\":\"EBS_CUST_HOMEPHONE\"},{\"Value\":\"N\",\"AttrId\":1662,\"AttrCode\":\"EBS_CUST_SMS_MMS\"},{\"Value\":\"N\",\"AttrId\":1663,\"AttrCode\":\"EBS_CUST_DOOR2DOOR\"},{\"Value\":\"N\",\"AttrId\":1664,\"AttrCode\":\"EBS_CUST_DIRET_MAIL\"},{\"Value\":\"7\",\"AttrId\":1801,\"AttrCode\":\"EBS_SUB_DOCUMENT_TYPE\"},{\"Value\":\"N\",\"AttrId\":1910,\"AttrCode\":\"EBS_CUST_LOCATION\"},{\"Value\":\"N\",\"AttrId\":1647,\"AttrCode\":\"EBS_CUST_CSA\"},{\"Value\":\"3\",\"AttrId\":7638,\"AttrCode\":\"EBS_SH_CUST_RATING\"},{\"Value\":\"N\",\"AttrId\":7658,\"AttrCode\":\"EBS_UNDERTAKING_FLAG\"},{\"Value\":\"S\",\"AttrId\":7418,\"AttrCode\":\"EBS_MAINT_NOTI_SLA\"},{\"Value\":\"Y\",\"AttrId\":7420,\"AttrCode\":\"IS_EBS_MAINT_NOTI\"},{\"Value\":\"N\",\"AttrId\":7421,\"AttrCode\":\"IS_EBS_OUTAGE_NOTI\"},{\"Value\":\"Y\",\"AttrId\":8098,\"AttrCode\":\"IS_EBS_NOTIFY_AO\"}],\"DocNbr\":\"H3A_CPQ02\",\"Industry\":\"104\"}],\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 3,
+                    "child_api_name": "UpdateCustomer",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"CustomerInfo\":{\"DocType\":\"BRN\",\"ContactInfoList\":[{\"ContactRole\":\"Authorized Officer\",\"DocNo\":\"S3953669B\",\"ContactTypeList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"true\",\"ModeOfContact\":\"Email\",\"ContactHours\":\"24 Hours\",\"ContactManTypeId\":\"41\"}],\"OfficeNo\":\"66666666\",\"Salutation\":\"Mr.\",\"ModeOfContact\":\"Email\",\"Primary\":\"true\",\"ContactHours\":\"24 Hours\",\"MobileNo\":\"88888888\",\"DocType\":\"NRIC\",\"MobileNoLocationType\":\"Local\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeLocationType\":\"Local\",\"ContactId\":\"0030l00000XCkuxAAD\",\"FamilyName\":\"TC24\",\"Designation\":\"Agent\"}],\"AddressList\":[{\"AddressInfo\":{\"AddressId\":\"2061923\",\"SamAddressId\":\"AA00946371\"},\"AddressAssociation\":\"Mailing Address\"},{\"AddressInfo\":{\"AddressId\":\"2061923\",\"SamAddressId\":\"AA00946371\"},\"AddressAssociation\":\"Registered Address\"}],\"AcctManagerEmail\":\"onajeremiahrussel.escurel@starhub.com\",\"MarketSegment\":\"SMB-Channel Partners\",\"DocNo\":\"H3A_CPQ02\",\"UCGroupList\":[],\"TotalOutstandingAmt\":0,\"CustCategory\":\"SME\",\"BillingAccountList\":[{\"OutstandingAmt\":0,\"OverdueAmt\":0,\"BANo\":\"8.20017679\",\"BillingAddress\":{\"AddressInfo\":{\"AddressId\":\"1654453\",\"Street\":\"TANJONG PAGAR PLAZA\",\"PostalCode\":\"081003\",\"SamAddressId\":\"AA01603780\",\"Level\":\"20\",\"BlockNo\":\"3\",\"Unit\":\"27\"},\"AddressAssociation\":\"Billing Address\"},\"BillDeliveryMethod\":\"Hard Copy\",\"SubsList\":[\"PC-02022239\"],\"AccountLevel\":\"10\"}],\"SalesSegment\":\"SME\",\"CustName\":\"H3A_CPQ02\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Customer\":{\"DocType\":\"BRN\",\"ContactList\":[{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"}],\"AccountManager\":{\"StaffEmail\":\"onajeremiahrussel.escurel@starhub.com\"},\"RegisteredAddress\":{\"AddressId\":2061923,\"SamAddressId\":\"AA00946371\"},\"CustAttrList\":[{\"Value\":\"367\",\"AttrCode\":\"EBS_CUST_SALES_SEGMENT\"},{\"Value\":\"22\",\"AttrCode\":\"EBS_CUST_MARKET_SEGMENT\"},{\"Value\":\"BRN_SME\",\"AttrCode\":\"EBS_CUST_CATG\"}],\"AccountList\":[{\"DeliveryInfo\":{\"Address\":{\"AddressId\":1654453,\"PostalCode\":\"081003\",\"UnitNo\":\"27\",\"StreetName\":\"TANJONG PAGAR PLAZA\",\"SamAddressId\":\"AA01603780\",\"BlockNumber\":\"3\",\"FloorNo\":\"20\"},\"DeliveryMethod\":\"A\"},\"PaymentResponsible\":\"Yes\",\"AcctAttrList\":[{\"Value\":\"10\",\"AttrCode\":\"EBS_ACCT_LEVEL\"}],\"AcctNbr\":\"8.20017679\"}],\"DocNbr\":\"H3A_CPQ02\",\"MailingAddress\":{\"AddressId\":2061923,\"SamAddressId\":\"AA00946371\"},\"CustName\":\"H3A_CPQ02\"},\"Source\":\"SFDC\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"CustomerInfo\":{\"DocType\":\"BRN\",\"AddressList\":[],\"DocNo\":\"H3A_CPQ02\",\"TotalOutstandingAmt\":0,\"CustId\":\"1630244\",\"CustBlackListStatus\":\"Clear\",\"CustName\":\"H3A_CPQ02\"},\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"Customer\":{\"DocType\":\"BRN\",\"DocNbr\":\"H3A_CPQ02\",\"CustId\":1630244,\"CustName\":\"H3A_CPQ02\"},\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 4,
+                    "child_api_name": "QueryContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfoList\":[{\"OfficeNumber\":\"66666666\",\"Salutation\":\"Mr.\",\"LocationOfOfficeNumber\":\"Local\",\"Name\":\"TC24\",\"LocationOfMobileNumber\":\"Local\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"BasicContactManId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"DocNbr\":\"H3A_CPQ02\",\"DocNumber\":\"S3953669B\",\"Designation\":\"Agent\",\"MobileNumber\":\"88888888\"}],\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"ContactInfoList\":[{\"MobileNoLocationType\":\"Local\",\"EbsContactId\":125809,\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"Local\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 5,
+                    "child_api_name": "QueryContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Name\":\"TC24\",\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeNo\":\"66666666\",\"MobileNo\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Name\":\"TC24\",\"DocType\":\"BRN\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"DocNbr\":\"H3A_CPQ02\",\"MobileNumber\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ContactInfoList\":[{\"MobileNoLocationType\":\"Local\",\"EbsContactId\":125809,\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"Local\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfoList\":[{\"OfficeNumber\":\"66666666\",\"Salutation\":\"Mr.\",\"LocationOfOfficeNumber\":\"Local\",\"Name\":\"TC24\",\"LocationOfMobileNumber\":\"Local\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"BasicContactManId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"DocNbr\":\"H3A_CPQ02\",\"DocNumber\":\"S3953669B\",\"Designation\":\"Agent\",\"MobileNumber\":\"88888888\"}],\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 6,
+                    "child_api_name": "UpdateContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\",\"ContactInfo\":{\"ContactRole\":\"Authorized Officer\",\"DocNo\":\"S3953669B\",\"OfficeNo\":\"66666666\",\"Salutation\":\"Mr.\",\"ModeOfContact\":\"Email\",\"Primary\":\"true\",\"ContactHours\":\"24 Hours\",\"MobileNo\":\"88888888\",\"DocType\":\"NRIC\",\"EbsContactId\":125809,\"MobileNoLocationType\":\"Local\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeLocationType\":\"Local\",\"ContactId\":\"0030l00000XCkuxAAD\",\"FamilyName\":\"TC24\",\"Designation\":\"Agent\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 7,
+                    "child_api_name": "QueryContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Name\":\"TC24\",\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeNo\":\"66666666\",\"MobileNo\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Name\":\"TC24\",\"DocType\":\"BRN\",\"OfficeNumber\":\"66666666\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"DocNbr\":\"H3A_CPQ02\",\"MobileNumber\":\"88888888\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ContactInfoList\":[{\"MobileNoLocationType\":\"Local\",\"EbsContactId\":125809,\"DocNo\":\"H3A_CPQ02\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"ContactTypeList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"AssociatedContactInsList\":[{\"InstValue\":\"1630244\"}],\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":\"41\"}],\"OfficeLocationType\":\"Local\",\"OfficeNo\":\"66666666\",\"Gender\":\"U\",\"GivenName\":\"TC24\",\"Salutation\":\"Mr.\",\"Designation\":\"Agent\",\"MobileNo\":\"88888888\"}],\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfoList\":[{\"OfficeNumber\":\"66666666\",\"Salutation\":\"Mr.\",\"LocationOfOfficeNumber\":\"Local\",\"Name\":\"TC24\",\"LocationOfMobileNumber\":\"Local\",\"ContactTypeInfoList\":[{\"ContactLevel\":\"C\",\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"AssociatedContactInstList\":[{\"InstValue\":\"1630244\"}],\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"BasicContactManId\":125809,\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"Gender\":\"U\",\"DocNbr\":\"H3A_CPQ02\",\"DocNumber\":\"S3953669B\",\"Designation\":\"Agent\",\"MobileNumber\":\"88888888\"}],\"ResultCode\":\"0\",\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 8,
+                    "child_api_name": "UpdateContact",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"DocNo\":\"H3A_CPQ02\",\"ContactInfo\":{\"ContactRole\":\"Authorized Officer\",\"DocNo\":\"S3953669B\",\"ContactTypeList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"true\",\"ModeOfContact\":\"Email\",\"ContactManId\":\"280077\",\"ContactHours\":\"24 Hours\",\"ContactManTypeId\":\"41\"}],\"OfficeNo\":\"66666666\",\"Salutation\":\"Mr.\",\"ModeOfContact\":\"Email\",\"Primary\":\"true\",\"ContactHours\":\"24 Hours\",\"MobileNo\":\"88888888\",\"DocType\":\"NRIC\",\"EbsContactId\":125809,\"MobileNoLocationType\":\"Local\",\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"OfficeLocationType\":\"Local\",\"ContactId\":\"0030l00000XCkuxAAD\",\"FamilyName\":\"TC24\",\"Designation\":\"Agent\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"BasicContactInfo\":{\"LocationOfMobileNumber\":\"Local\",\"Name\":\"TC24\",\"OfficeNumber\":\"66666666\",\"ContactTypeInfoList\":[{\"ContactManTypeName\":\"Authorized Officer\",\"Primary\":\"Y\",\"ModeOfContact\":\"Email\",\"ContactManId\":280077,\"ContactHours\":\"24 hrs daily\",\"ContactManTypeId\":41}],\"Email\":\"huyentrang.pham.fpt@starhub.com\",\"BasicContactManId\":125809,\"Gender\":\"U\",\"Salutation\":\"Mr.\",\"DocNumber\":\"S3953669B\",\"LocationOfOfficeNumber\":\"Local\",\"MobileNumber\":\"88888888\",\"Designation\":\"Agent\"},\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 9,
+                    "child_api_name": "QueryQuotation",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 10,
+                    "child_api_name": "CreateQuotation",
+                    "flow_details": [
+                        {
+                            "message": "{\"Quotation\":{\"DocType\":\"BRN\",\"Source\":\"SFDC\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[{\"ParamCode\":\"HANDSET\",\"RowList\":[{\"RowCode\":\"EAPP0018701\",\"ColumnGroupList\":[{\"ColumnList\":[{\"ColumnValue\":\"D\",\"ColumnCode\":\"DISCOUNT_TYPE\"},{\"ColumnValue\":\"0.0\",\"ColumnCode\":\"VALUE\"}],\"ColumnGroupCode\":\"OTC\"}]}]}],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"Quotation\":{\"Source\":\"SFDC\",\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[{\"ParamCode\":\"HANDSET\",\"RowList\":[{\"RowCode\":\"EAPP0018701\",\"ColumnGroupList\":[{\"ColumnList\":[{\"ColumnValue\":\"D\",\"ColumnCode\":\"DISCOUNT_TYPE\"},{\"ColumnValue\":\"0.0\",\"ColumnCode\":\"VALUE\"}],\"ColumnGroupCode\":\"OTC\"}]}]}],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"Successful\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"0\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"NoOfRecords\":0}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 11,
+                    "child_api_name": "QueryQuotation",
+                    "flow_details": [
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"OpportunityId\":\"OPPTY-200417469841\",\"DocNbr\":\"H3A_CPQ02\"}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"QuotationList\":[{\"DocType\":\"BRN\",\"Status\":\"F\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}],\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"Successful\",\"CustGroupId\":0,\"ResultCode\":\"0\",\"QuotationList\":[{\"DocType\":\"BRN\",\"Status\":\"F\",\"OpportunityId\":\"OPPTY-200417469841\",\"QuotationItemList\":[{\"QuotationItemRefId\":\"SN-000038484\",\"TableParamList\":[],\"QuotationItemId\":\"94079\",\"BasicParamList\":[],\"QuotationItemClass\":\"R\"}],\"DocNbr\":\"H3A_CPQ02\",\"QuotationName\":\"OPPTY-200417469841\",\"QuotationRefId\":\"OPPTY-200417469841\"}],\"NoOfRecords\":1}",
+                            "status": "Success",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                },
+                {
+                    "flow_id": 12,
+                    "child_api_name": "CreateOrder",
+                    "flow_details": [
+                        {
+                            "message": "{\"Source\":\"SFDC\",\"SourceOrderNbr\":\"OPPTY-200417469841\",\"DocType\":\"BRN\",\"DocNbr\":\"H3A_CPQ02\",\"AcceptDate\":\"20200428\",\"CustOrderAttrList\":[{\"AttrCode\":\"IDEAL_E_FORM\",\"OperationType\":\"A\",\"Value\":\"N\"}],\"DeliveryInfoOrder\":{\"DoType\":\"A\",\"DeliveryTo\":\"Yap Chuan Hwee\",\"MobileNo\":\"97267679\",\"Nric\":\"S1811498D\",\"Email\":\"chuanhwee.yap@schuetz.net\",\"PaymentType\":\"B\",\"PaymentMethod\":\"3\",\"DeliveryAddressId\":1665236,\"BillAddressId\":2318952},\"OrderItemList\":[{\"ActionCode\":\"ManualDeliveryOrder\",\"SourceOrderItemNbr\":\"SN-000038484\",\"IndependProdOrderList\":[{\"DeviceInfoOrderList\":[{\"DeviceType\":\"RRP_HANDSET\",\"DevicePartNum\":\"EAPP0018701\",\"Qty\":1,\"ReservationCode\":\"XEGYYJSCOX\"}]}],\"QcType\":\"Q\",\"SourceQcItemId\":\"SN-000038484\",\"Asap\":\"N\",\"RfsDate\":\"20200421\"}],\"CustOrderAttachmentList\":[{\"ContentId\":\"0680K00000SW6x4QAD\",\"AttachName\":\"Service Agreement - SCHUTZ SINGAPORE PTE LTD - 21/04/20.pdf\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6x4QAD/VersionData\",\"AttachType\":\"A\"},{\"ContentId\":\"0680K00000SW3DIQA1\",\"AttachName\":\"NRIC - YAP CHUAN HWEE_201601071456\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3DIQA1/VersionData\",\"AttachType\":\"N\",\"ContactManId\":280077},{\"ContentId\":\"0680K00000SW6xdQAD\",\"AttachName\":\"DEP Registration Form\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6xdQAD/VersionData\",\"AttachType\":\"Application Formdqwd\"},{\"ContentId\":\"0680K00000SW3D8QAL\",\"AttachName\":\"BIZPROFILE - SCHUTZ SG_17042020\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3D8QAL/VersionData\",\"AttachType\":\"ACRA certificateqdw\"}],\"AuthorizedPersonList\":[{\"AuthorizedPerson\":\"TC24\",\"AuthorizedDocument\":\"S3953669B\",\"AuthorizedEmail\":\"huyentrang.pham.fpt@starhub.com\",\"AuthorizedOfficeNo\":\"66666666\",\"AuthorizedMobileNo\":\"88888888\",\"AuthorizedDesignation\":\"Agent\"}],\"CustOrderEmailList\":[{\"EmailAddr\":\"huyentrang.pham.fpt@starhub.com\"}],\"CreateBy\":{\"StaffEmail\":\"rachel@intrahubs.com\"}}",
+                            "status": "Success",
+                            "action": "ADAPTOR_REQUEST"
+                        },
+                        {
+                            "message": "{\"DocType\":\"BRN\",\"Source\":\"SFDC\",\"DeliveryInfoOrder\":{\"PaymentType\":\"B\",\"Email\":\"chuanhwee.yap@schuetz.net\",\"BillAddressId\":2318952,\"DeliveryAddressId\":1665236,\"PaymentMethod\":\"3\",\"Nric\":\"S1811498D\",\"DeliveryTo\":\"Yap Chuan Hwee\",\"DoType\":\"A\",\"MobileNo\":\"97267679\"},\"CustOrderAttrList\":[{\"Value\":\"N\",\"AttrCode\":\"IDEAL_E_FORM\",\"OperationType\":\"A\"}],\"CustOrderEmailList\":[{\"EmailAddr\":\"huyentrang.pham.fpt@starhub.com\"}],\"OrderItemList\":[{\"SourceQcItemId\":\"SN-000038484\",\"RfsDate\":\"20200421\",\"IndependProdOrderList\":[{\"DeviceInfoOrderList\":[{\"Qty\":1,\"DevicePartNum\":\"EAPP0018701\",\"ReservationCode\":\"XEGYYJSCOX\",\"DeviceType\":\"RRP_HANDSET\"}]}],\"ActionCode\":\"ManualDeliveryOrder\",\"Asap\":\"N\",\"SourceOrderItemNbr\":\"SN-000038484\",\"QcType\":\"Q\"}],\"AcceptDate\":\"20200428\",\"SourceOrderNbr\":\"OPPTY-200417469841\",\"CreateBy\":{\"StaffEmail\":\"rachel@intrahubs.com\"},\"AuthorizedPersonList\":[{\"AuthorizedEmail\":\"huyentrang.pham.fpt@starhub.com\",\"AuthorizedPerson\":\"TC24\",\"AuthorizedDocument\":\"S3953669B\",\"AuthorizedOfficeNo\":\"66666666\",\"AuthorizedMobileNo\":\"88888888\",\"AuthorizedDesignation\":\"Agent\"}],\"HoldOrderFlag\":\"N\",\"DocNbr\":\"H3A_CPQ02\",\"CustOrderAttachmentList\":[{\"AttachName\":\"Service Agreement - SCHUTZ SINGAPORE PTE LTD - 21/04/20.pdf\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6x4QAD/VersionData\",\"ContentId\":\"0680K00000SW6x4QAD\",\"AttachType\":\"A\"},{\"AttachName\":\"NRIC - YAP CHUAN HWEE_201601071456\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3DIQA1/VersionData\",\"ContentId\":\"0680K00000SW3DIQA1\",\"ContactManId\":280077,\"AttachType\":\"N\"},{\"AttachName\":\"DEP Registration Form\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW6xdQAD/VersionData\",\"ContentId\":\"0680K00000SW6xdQAD\",\"AttachType\":\"Application Formdqwd\"},{\"AttachName\":\"BIZPROFILE - SCHUTZ SG_17042020\",\"AttachUrl\":\"/services/data/v24.0/sobjects/ContentVersion/0680K00000SW3D8QAL/VersionData\",\"ContentId\":\"0680K00000SW3D8QAL\",\"AttachType\":\"ACRA certificateqdw\"}]}",
+                            "status": "Success",
+                            "action": "EBS_REQUEST"
+                        },
+                        {
+                            "message": "{\"ResultDesc\":\"custOrderAttachmentList(3):attachType is out of range.\",\"RequestId\":\"ce3ca24c-682e-4df6-88fd-28a547d429e7-1588056696816\",\"ResultCode\":\"1019\"}",
+                            "status": "Fail",
+                            "action": "ADAPTOR_RESPONSE"
+                        },
+                        {
+                            "message": "{\"BookingId\":0,\"ResultDesc\":\"custOrderAttachmentList(3):attachType is out of range.\",\"CustGroupId\":0,\"ResultCode\":\"1019\",\"NoOfRecords\":0}",
+                            "status": "Fail",
+                            "action": "EBS_RESPONSE"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
