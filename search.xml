@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/07/02/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a> 
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>qwfqfqwfqfrarega。</p>
+<p>——<strong>aaaaa</strong></p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<p>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw"><a href="#dawdawdawdaw" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<div class="note default">
+            <p>default</p>
+          </div>
+<div class="note primary">
+            <p>primary</p>
+          </div>
+<div class="note success">
+            <p>success</p>
+          </div>
+<div class="note info">
+            <p>info</p>
+          </div>
+<div class="note warning">
+            <p>warning</p>
+          </div>
+<div class="note danger">
+            <p>danger</p>
+          </div>
+
+<div class="note danger">
+            <p><font color = red><strong>注意：</strong></font></p><ol><li>这个版本的Note标签<font color = red><strong>有可能</strong></font>会在命令与内容写在同一行时出现bug，导致正文中的部分代码和格式无法识别。</li><li>可以对标签内部再添加标题，如<code>### 注意</code>格式，但是这会导致之后的目录识别出现问题，所以尽量避免使用这种效果吧。</li></ol>
+          </div>
+<p>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-1"><a href="#dawdawdawdaw-1" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg</p>
+<h4 id="dawdawdawdaw-2"><a href="#dawdawdawdaw-2" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<span class="label [class]">Text</span>
+<p>regqergqerg</p>
+<h4 id="dawdawdawdaw-3"><a href="#dawdawdawdaw-3" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg</p>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><p>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<div class="pdfobject-container" data-target="https://arxiv.org/pdf/1606.07792.pdf#navpanes=0&toolbar=0&statusbar=0&pagemode=thumbs&view=FitH" data-height="[height]"></div>
+
+<p>regqergqerg<br>regqergqerg</p>
+<div class="tabs" id="贴吧"><ul class="nav-tabs"><li class="tab active"><a href="#贴吧-1"><i class="fa fa-home"></i>android开发吧</a></li><li class="tab"><a href="#贴吧-2">java吧</a></li><li class="tab"><a href="#贴吧-3">c++吧</a></li><li class="tab"><a href="#贴吧-4">c语言</a></li><li class="tab"><a href="#贴吧-5">神奇海螺</a></li></ul><div class="tab-content"><div class="tab-pane active" id="贴吧-1"><p>有问题为什么不先问问隔壁Java吧呢？</p></div><div class="tab-pane" id="贴吧-2"><p>有问题为什么不先问问隔壁C++吧呢？</p></div><div class="tab-pane" id="贴吧-3"><p>有问题为什么不先问问隔壁C语言吧呢？</p></div><div class="tab-pane" id="贴吧-4"><p>有问题为什么不先问问神奇海螺吧呢？</p></div><div class="tab-pane" id="贴吧-5"><p>有问必答不知道</p></div></div></div>
+<p>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-4"><a href="#dawdawdawdaw-4" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-5"><a href="#dawdawdawdaw-5" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>regqergqerg<br>regqergqerg</p>
+<video src="url" preload="metadata" controls playsinline poster="">Sorry, your browser does not support the video tag.</video>
+<p>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-6"><a href="#dawdawdawdaw-6" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-7"><a href="#dawdawdawdaw-7" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h2 id="Quick-Start-1"><a href="#Quick-Start-1" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>adfbadfbadb</p>
+<h3 id="Create-a-new-post-1"><a href="#Create-a-new-post-1" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-8"><a href="#dawdawdawdaw-8" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-9"><a href="#dawdawdawdaw-9" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg</p>
+<h4 id="dawdawdawdaw-10"><a href="#dawdawdawdaw-10" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg</p>
+<h4 id="dawdawdawdaw-11"><a href="#dawdawdawdaw-11" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg</p>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server-1"><a href="#Run-server-1" class="headerlink" title="Run server"></a>Run server</h3><p>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-12"><a href="#dawdawdawdaw-12" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-13"><a href="#dawdawdawdaw-13" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files-1"><a href="#Generate-static-files-1" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-14"><a href="#dawdawdawdaw-14" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg</p>
+<h4 id="dawdawdawdaw-15"><a href="#dawdawdawdaw-15" class="headerlink" title="dawdawdawdaw"></a>dawdawdawdaw</h4><p>regqergqerg<br>regqergqerg</p>
+<p>regqergqerg<br>regqergqerg<br>regqergqerg</p>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites-1"><a href="#Deploy-to-remote-sites-1" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Getting Started with Facebook Libra</title>
+    <url>/2019/06/25/Getting-Started-with-Facebook-Libra/</url>
+    <content><![CDATA[<p>Facebook has rolled out its ambitious plans for a new currency and financial infrastructure that could make our transactions easier. Libra is a new type of cryptocurrency that using blockchain technology to allow you to make purchases and send money online with almost zero fees. The idea is to provide fast and reliable transactions with the option to hide your identity while exchanging from your local currency to use Facebook’s Calibra wallet.Now, Libra fullfills the requirements of developer in order to enter the blockchain era. I tried to build a Libra environment to simulate the trading step of the Libra and it was guided by the online resources which will mention in the end of article.</p>
+<a id="more"></a> 
+
+<h2 id="Environment-Setup"><a href="#Environment-Setup" class="headerlink" title="Environment Setup"></a>Environment Setup</h2><h3 id="Requirement-of-Environment"><a href="#Requirement-of-Environment" class="headerlink" title="Requirement of Environment"></a>Requirement of Environment</h3><blockquote>
+<p>Linux Ubuntu 18.04 LTS, 4GB Memory, 100G Storage</p>
+</blockquote>
+<h3 id="Update-Linux"><a href="#Update-Linux" class="headerlink" title="Update Linux"></a>Update Linux</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
+
+<h2 id="Download-Libra-and-Related-Packages"><a href="#Download-Libra-and-Related-Packages" class="headerlink" title="Download Libra and Related Packages"></a>Download Libra and Related Packages</h2><h3 id="Download-Libra"><a href="#Download-Libra" class="headerlink" title="Download Libra"></a>Download Libra</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;libra&#x2F;libra.git</span><br></pre></td></tr></table></figure>
+
+<h3 id="Install-Golang"><a href="#Install-Golang" class="headerlink" title="Install Golang"></a>Install Golang</h3><p>Use the wget to downlaod package and do extraction.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">wget https:&#x2F;&#x2F;studygolang.com&#x2F;dl&#x2F;golang&#x2F;go1.12.5.linux-amd64.tar.gz</span><br><span class="line">tar -xvf go1.12.5.linux-amd64.tar.gz</span><br></pre></td></tr></table></figure>
+<p>Configure the environment variable</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim &#x2F;etc&#x2F;profile</span><br></pre></td></tr></table></figure>
+<p>Insert the environment path</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">export GOROOT&#x3D;&#x2F;usr&#x2F;go</span><br><span class="line">export GOPATH&#x3D;&#x2F;usr&#x2F;gopath</span><br><span class="line">export PATH&#x3D;$PATH:$GOROOT&#x2F;bin:$GOPATH&#x2F;bin</span><br></pre></td></tr></table></figure>
+
+<h3 id="Install-Rust-and-related-software"><a href="#Install-Rust-and-related-software" class="headerlink" title="Install Rust and related software"></a>Install Rust and related software</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">curl --proto &#39;&#x3D;https&#39; --tlsv1.2 -sSf https:&#x2F;&#x2F;sh.rustup.rs | sh</span><br><span class="line">rustup toolchain install nightly-2019-05-22-x86_64-unknown-linux-gnu</span><br><span class="line">rustup override set nightly-2019-05-22</span><br></pre></td></tr></table></figure>
+<p>Check the version after the intallation</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">rustc --version</span><br><span class="line">rustup --version</span><br></pre></td></tr></table></figure>
+
+<h3 id="Install-cmake"><a href="#Install-cmake" class="headerlink" title="Install cmake"></a>Install cmake</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install cmake</span><br></pre></td></tr></table></figure>
+
+<h3 id="Configuration-of-protocol"><a href="#Configuration-of-protocol" class="headerlink" title="Configuration of protocol"></a>Configuration of protocol</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">wget https:&#x2F;&#x2F;github.com&#x2F;protocolbuffers&#x2F;protobuf&#x2F;releases&#x2F;download&#x2F;v3.6.1&#x2F;protobuf-all-3.6.1.tar.gz</span><br><span class="line">tar -xvf protobuf-all-3.6.1.tar.gz</span><br><span class="line">cd protobuf-3.6.1&#x2F;</span><br><span class="line">.&#x2F;configure</span><br><span class="line">make</span><br><span class="line">make check</span><br><span class="line">sudo make install</span><br><span class="line">protoc --version</span><br><span class="line"># show：libprotoc 3.6.1</span><br></pre></td></tr></table></figure>
+
+<h2 id="Installation-of-Libra"><a href="#Installation-of-Libra" class="headerlink" title="Installation of Libra"></a>Installation of Libra</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd libra</span><br><span class="line">.&#x2F;scripts&#x2F;dev_setup.sh</span><br></pre></td></tr></table></figure>
+<p>Showing</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Installing CMake......</span><br><span class="line">CMake is already installed</span><br><span class="line">Installing Go......</span><br><span class="line">Go is already installed</span><br><span class="line">Installing Protobuf......</span><br><span class="line">Protobuf is already installed</span><br><span class="line"></span><br><span class="line">Finished installing all dependencies.</span><br><span class="line"></span><br><span class="line">You should now be able to build the project by running:</span><br><span class="line">	source &#x2F;root&#x2F;.cargo&#x2F;env</span><br><span class="line">	cargo build</span><br></pre></td></tr></table></figure>
+
+<h2 id="Play-with-Libra"><a href="#Play-with-Libra" class="headerlink" title="Play with Libra"></a>Play with Libra</h2><h3 id="Build-Libra-CLI-Client-and-Connect-to-the-Testnet"><a href="#Build-Libra-CLI-Client-and-Connect-to-the-Testnet" class="headerlink" title="Build Libra CLI Client and Connect to the Testnet"></a>Build Libra CLI Client and Connect to the Testnet</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.&#x2F;scripts&#x2F;cli&#x2F;start_cli_testnet.sh</span><br></pre></td></tr></table></figure>
+<p>After finish the Testnet showing:<br><img src="/1.png" alt="Result after the CLI Client build"></p>
+<h3 id="Create-an-account-and-check-the-status"><a href="#Create-an-account-and-check-the-status" class="headerlink" title="Create an account and check the status"></a>Create an account and check the status</h3><p>Create two account </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">account create</span><br><span class="line">account create</span><br></pre></td></tr></table></figure>
+<p>Check the details of account</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">account list</span><br></pre></td></tr></table></figure>
+<p><img src="/2.png" alt="Create and check account"></p>
+<h3 id="Insert-money-to-the-account"><a href="#Insert-money-to-the-account" class="headerlink" title="Insert money to the account"></a>Insert money to the account</h3><p>We insert 101 coins to first account and, 51 coins to the second account.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">account mint 0 101</span><br><span class="line">account mint 0 51</span><br></pre></td></tr></table></figure>
+<p>Check the balance</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">query balance 0</span><br><span class="line">query balance 1</span><br></pre></td></tr></table></figure>
+<p><img src="/3.png" alt="Insert and check the balance of account"></p>
+<h3 id="Trade-the-coins"><a href="#Trade-the-coins" class="headerlink" title="Trade the coins"></a>Trade the coins</h3><p>So far, we can starting to do the exchange between two accounts.<br>We transfer 33 coins from first account to second account.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">transfer 0 1 33</span><br></pre></td></tr></table></figure>
+<p><img src="/5.png" alt="trading of the two account"></p>
+<h2 id="Refferences"><a href="#Refferences" class="headerlink" title="Refferences"></a>Refferences</h2><ul>
+<li>Libra official website:  <a href="https://libra.org/en-US/" target="_blank" rel="noopener">https://libra.org/en-US/</a></li>
+<li>Libra white paper: <a href="https://libra.org/en-US/white-paper/" target="_blank" rel="noopener">https://libra.org/en-US/white-paper/</a></li>
+<li>Libra technical white paper: <a href="https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf" target="_blank" rel="noopener">https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf</a></li>
+<li>Libra developer documentation: <a href="https://developers.libra.org/" target="_blank" rel="noopener">https://developers.libra.org/</a></li>
+<li>Libra Github: <a href="https://github.com/libra/libra" target="_blank" rel="noopener">https://github.com/libra/libra</a></li>
+<li>Tutorial of environment setup: <a href="https://developers.libra.org/docs/my-first-transaction" target="_blank" rel="noopener">https://developers.libra.org/docs/my-first-transaction</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Technology</category>
+      </categories>
+      <tags>
+        <tag>Libra</tag>
+        <tag>Linux</tag>
+        <tag>Block-Chain</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/07/04/hello-world%20copy/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>How to invest stock market in Malaysia</title>
+    <url>/2019/07/01/How-to-invest-stock-market-in-Malaysia/</url>
+    <content><![CDATA[<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><h2 id="Create-a-brokerage-account"><a href="#Create-a-brokerage-account" class="headerlink" title="Create a brokerage account"></a>Create a brokerage account</h2><p>First of all, It is important to understand that the premise of share investment is that you must have an Central Depository System (CDS) account or nominee account.</p>
+<a id="more"></a> 
+<h3 id="Where-to-register"><a href="#Where-to-register" class="headerlink" title="Where to register"></a>Where to register</h3><p>There are several recognised securities which open for malaysian to register CDS account/ nominee account. As for which securities to choose, you can refer from: <a href="https://www.imoney.my/share-trading" target="_blank" rel="noopener">https://www.imoney.my/share-trading</a>.<br>The condition to apply and register an account is at least 18 to 21 years old. Also, the fee to open an account normally will cost RM 10.00.</p>
+<h3 id="The-types-of-account"><a href="#The-types-of-account" class="headerlink" title="The types of account"></a>The types of account</h3><p>There will be two types of account:</p>
+<ul>
+<li>Direct account (CDS account)</li>
+<li>Nominee account</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Features</th>
+<th>Direct account</th>
+<th>Nominee account</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Characteristic</td>
+<td>Under the name of investor</td>
+<td>Under the name of securities and affiliated investor</td>
+</tr>
+<tr>
+<td>Fees</td>
+<td>lower</td>
+<td>Higher</td>
+</tr>
+<tr>
+<td>Benefit</td>
+<td>Annual report, Dividend check, Voucher will mail to you</td>
+<td>Securities will help you process all staff</td>
+</tr>
+</tbody></table>
+<p>But some of the securities provide nominee account for register only. Please to ensure that remind your broker guide you how to do online trading.</p>
+<h2 id="Essential-knowledge"><a href="#Essential-knowledge" class="headerlink" title="Essential knowledge"></a>Essential knowledge</h2><h3 id="Unit-of-lot-in-Malaysia"><a href="#Unit-of-lot-in-Malaysia" class="headerlink" title="Unit of lot in Malaysia"></a>Unit of lot in Malaysia</h3><h3 id="The-Trading-phases-and-Market-timing"><a href="#The-Trading-phases-and-Market-timing" class="headerlink" title="The Trading phases and Market timing"></a>The Trading phases and Market timing</h3><h2 id="The-Fees"><a href="#The-Fees" class="headerlink" title="The Fees"></a>The Fees</h2><h3 id="Brokerage-fee"><a href="#Brokerage-fee" class="headerlink" title="Brokerage fee"></a>Brokerage fee</h3><h3 id="Stamp-duty"><a href="#Stamp-duty" class="headerlink" title="Stamp duty"></a>Stamp duty</h3><h3 id="Clearing-fee"><a href="#Clearing-fee" class="headerlink" title="Clearing fee"></a>Clearing fee</h3><h2 id="How-to-earn"><a href="#How-to-earn" class="headerlink" title="How to earn"></a>How to earn</h2><h3 id="Capital-Gain"><a href="#Capital-Gain" class="headerlink" title="Capital Gain"></a>Capital Gain</h3><h3 id="Dividends"><a href="#Dividends" class="headerlink" title="Dividends"></a>Dividends</h3><h2 id="Refferences"><a href="#Refferences" class="headerlink" title="Refferences"></a>Refferences</h2><p>* </p>
+]]></content>
+      <categories>
+        <category>Investment</category>
+      </categories>
+      <tags>
+        <tag>Bursa Malaysia</tag>
+        <tag>Stock Market</tag>
+      </tags>
+  </entry>
+</search>
